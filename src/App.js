@@ -1,4 +1,4 @@
-import './app.css'
+import './App.css'
 
 function App() {
   return (
@@ -9,22 +9,22 @@ function App() {
         <button>Go</button>
       </div>
       <div className="movie-card" id="movie-1">
-        <h2>Movie Image</h2>
+      <img alt="movie-poster" className="movie-image"/>
         <h3>Movie Name</h3>
         <p>Movie Rating</p>
-        <button>Like &lt;3</button>
+        <button className="like-bttn">❤️</button>
       </div>
       <div className="movie-card" id="movie-2">
-        <h2>Movie Image</h2>
+      <img alt="movie-poster" className="movie-image"/>
         <h3>Movie Name</h3>
         <p>Movie Rating</p>
-        <button>Like &lt;3</button>
+        <button className="like-bttn">❤️</button>
       </div>
       <div className="movie-card" id="movie-3">
-        <h2>Movie Image</h2>
+      <img alt="movie-poster" className="movie-image"/>
         <h3>Movie Name</h3>
         <p>Movie Rating</p>
-        <button>Like &lt;3</button>
+        <button className="like-bttn">❤️</button>
       </div>
     </div>
   );
